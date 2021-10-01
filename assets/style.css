@@ -44,7 +44,7 @@ header {
     position: relative;
 }
    .image {
-    background: url("assets/Background .jpg") no-repeat center center;
+    background: url("assets/Background.jpg") no-repeat center center;
     position: absolute;
     width:50%;
     height:50%;
