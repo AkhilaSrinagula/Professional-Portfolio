@@ -1,11 +1,11 @@
 body {
-    color: darkslategrey;
+    color:darkslategrey;
     font-family: Helvetica, Arial, sans-serif;
   }
 
 header {
     padding: 10px 35px;
-    background-color: lightgoldenrodyellow;
+    background-color:salmon;
     display: flex;
     justify-content: space-between;
 
@@ -13,12 +13,12 @@ header {
   header h1 {
     font-weight: bold;
     font-size: 30px;
-    color: lightseagreen;
+    color: darkslategrey;
     
   }
   
   header a { 
-    color: lightseagreen;
+    color:darkslategrey;
   }
   
   header nav {
@@ -32,22 +32,63 @@ header {
 
   header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.10vw;
+    font-weight: normal;
+    font-size: 1.40vw;
   }
 
   img {
+    border-radius: 25%;
+    
+   }
+
+  .hero {
     padding: 10px 35px;
-    border-radius: 50%;
+    background-color:linen;
+    text-align:left;
+    
   }
-  .image{
-    position: relative;
-}
-   .image {
-    background: url("assets/Background.jpg") no-repeat center center;
-    position: absolute;
-    width:50%;
-    height:50%;
-    z-index:-1;
-    opacity: 0.2; 
-}
+  .hero p {
+    font-weight:normal;
+    font-size: 1.05vw; 
+  }
+  
+  
+
+  .intro h3 {
+    font-size: 55px;
+    color:darkslategrey;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color:darkslategrey;
+    text-align:center;
+  }
+
+
+  .intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+  }
+
+  .intro p {
+    /* add this alongside your other declarations */
+    margin: 0 auto;
+    text-align: center
+  }
+
+  .applications h4 {
+    font-size: 55px;
+    color:darkslategrey;
+    margin-bottom: 35px;
+    padding: 0 10px 20px 10px;
+    border-bottom: 3px solid;
+    border-color:darkslategrey;
+    text-align:center;
+  }
+ .applications img {
+    width: 100%;
+    min-width: 400px;
+ }
+  
