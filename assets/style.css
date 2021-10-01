@@ -1,0 +1,53 @@
+body {
+    color: darkslategrey;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+header {
+    padding: 10px 35px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  header h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: lightseagreen;
+    
+  }
+  
+  header a { 
+    color: lightseagreen;
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+   header nav ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+   }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.10vw;
+  }
+
+  img {
+    padding: 10px 35px;
+    border-radius: 50%;
+  }
+  .image{
+    position: relative;
+}
+   .image {
+    background: url("assets/Background .jpg") no-repeat center center;
+    position: absolute;
+    width:50%;
+    height:50%;
+    z-index:-1;
+    opacity: 0.2; 
+}
