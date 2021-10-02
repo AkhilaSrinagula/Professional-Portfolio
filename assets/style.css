@@ -41,7 +41,7 @@ header {
     text-align:center;
     
   }
-  .hero p {
+  .hero .portfolio {
     font-weight:normal;
     font-size: 1.05vw; 
   }
@@ -58,7 +58,7 @@ header {
 
   
   
-  .container h3 {
+  /* .container h3 {
     font-size: 35px;    
     color:darkslategrey;
     padding: 0 100px 0 100px;
@@ -74,7 +74,7 @@ header {
     margin: 0 auto;
     text-align: center;
     
-  }
+  } */
 
   #about-me {
       float: left;
@@ -88,30 +88,36 @@ header {
   }
   
 .applications{
-    clear:both;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 25px 0;
+    padding: 10px 0;
+    justify-content: space-between;
 }
 
-  .applications h4 {
+  /* .applications h4 {
     font-size: 35px;    
     color:darkslategrey;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-color:darkslategrey;
     text-align:left;
-  }
+  } */
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 80%;
     
   } 
   
   .img-center {
     display: block;
-    margin-left: 7.5cm;
+    margin-left: 8.8cm;
     padding: 50px 0;
-    width: 35%;
+    width: 45%;
     
   } 
 
@@ -129,9 +135,20 @@ header {
   
 }
 
-#images {
-    float: right;
-    margin-top: 30px;
-}
+  .applications > div {
+      flex: 0 0 77%;
+  }
 
- 
+ .applications > h3 {
+     flex: 0 0 20%;
+     text-align: right;
+     padding-right: 15px;
+     border-right: 4px solid;
+     font-size: 4vw;
+     line-height: 1.1;
+ }
+
+ div {
+     padding: 8px 10px;
+ }
+
