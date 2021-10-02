@@ -101,16 +101,18 @@ header {
   } 
   .img-center {
     display: block;
-    margin-left: 112px;
+    margin-left: 10px;
     margin-right: auto;
-    width: 40%;
+    width: 10%;
+    display:flex;
   } 
 
   .imgage-center {
     display: block;
-    
+    margin-left: 10px;
     margin-right: auto;
-    width: 40%;
+    width: 10%;
+    display:flex;
   } 
   .container1 h4 {
     font-size: 35px;    
