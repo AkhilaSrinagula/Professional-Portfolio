@@ -1,11 +1,11 @@
 body {
-    color:darkslategrey;
+    color:#39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
 
 header {
     padding: 10px 35px;
-    background-color:salmon;
+    background-color:lightseagreen;
     display: flex;
     justify-content: space-between;
 
@@ -32,19 +32,15 @@ header {
 
   header nav ul li a {
     padding: 10px 15px;
-    font-weight: normal;
-    font-size: 1.40vw;
+    font-weight: bold;
+    font-size: 1.25vw;
   }
 
-  img {
-    border-radius: 25%;
-    
-   }
 
   .hero {
     padding: 10px 35px;
-    background-color:linen;
-    text-align:left;
+    background-color:lavenderblush;
+    text-align:center;
     
   }
   .hero p {
@@ -52,16 +48,21 @@ header {
     font-size: 1.05vw; 
   }
   
-  
+  #avatar {
+      border-radius: 50%;
+      width: 300px;
+      height: 300px;
+      background-image: url("/assets/Akhila.jpg");
+      background-size: cover;
+  }
 
   .intro h3 {
-    font-size: 55px;
+    font-size: 35px;
     color:darkslategrey;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
     border-color:darkslategrey;
-    text-align:center;
+    text-align:left;
   }
 
 
@@ -73,22 +74,30 @@ header {
   }
 
   .intro p {
-    /* add this alongside your other declarations */
     margin: 0 auto;
-    text-align: center
+    text-align: center;
   }
 
   .applications h4 {
-    font-size: 55px;
+    font-size: 35px;    
     color:darkslategrey;
     margin-bottom: 35px;
-    padding: 0 10px 20px 10px;
-    border-bottom: 3px solid;
+    padding: 0 100px 20px 100px;
     border-color:darkslategrey;
-    text-align:center;
+    text-align:left;
   }
- .applications img {
-    width: 100%;
-    min-width: 400px;
- }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+  } 
   
+  .img-center {
+    display: block;
+    margin-left: 7.5cm;
+    padding: 50px 0;
+    width: 35%;
+    
+  } 
