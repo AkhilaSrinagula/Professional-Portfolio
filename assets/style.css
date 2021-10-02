@@ -1,24 +1,20 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
   }
-
 header {
     padding: 10px 35px;
     background-color:lightseagreen;
     display: flex;
     justify-content: space-between;
-
   }
   header h1 {
     font-weight: bold;
     font-size: 30px;
     color: darkslategrey;
   }
-  
   header a { 
     color:darkslategrey;
   }
-  
   header nav {
     margin: 7px 0;
   }
@@ -27,25 +23,23 @@ header {
       justify-content: space-between;
       list-style: none;
    }
-
   header nav ul li a {
     padding: 10px 15px;
     font-weight: bold;
     font-size: 1.25vw;
   }
-
-
+  div {
+      flex: 0 0 90%;
+  }
   .hero {
     padding: 10px 35px;
     background-color:lavenderblush;
     text-align:center;
-    
   }
   .hero .portfolio {
     font-weight:normal;
     font-size: 1.05vw; 
   }
-  
   #avatar {
       border-radius: 50%;
       width: 300px;
@@ -55,17 +49,13 @@ header {
       margin-left: auto;
       margin-right: auto;
   }
-
-  
-  
-  /* .container h3 {
+  .container h3 {
     font-size: 35px;    
     color:darkslategrey;
     padding: 0 100px 0 100px;
     border-color:darkslategrey;
     text-align:left;
   }
-
   .container p {
     line-height: 1.5;
     color: darkslategrey;
@@ -73,20 +63,15 @@ header {
     font-size: 20px;
     margin: 0 auto;
     text-align: center;
-    
   } */
-
   #about-me {
       float: left;
       margin-top: 100px;
-    
   }
-
   #info {
       float: right;
       margin-top: 100px;
   }
-  
 .applications{
     display: flex;
     flex-direction:row;
@@ -95,8 +80,11 @@ header {
     margin: 25px 0;
     padding: 10px 0;
     justify-content: space-between;
+    padding: 0 100px 20px 100px;
+    border-color:darkslategrey;
+    font-size: 25px;    
+    color:darkslategrey;
 }
-
   /* .applications h4 {
     font-size: 35px;    
     color:darkslategrey;
@@ -110,17 +98,20 @@ header {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    
   } 
-  
   .img-center {
     display: block;
-    margin-left: 8.8cm;
-    padding: 50px 0;
-    width: 45%;
-    
+    margin-left: 112px;
+    margin-right: auto;
+    width: 40%;
   } 
 
+  .imgage-center {
+    display: block;
+    
+    margin-right: auto;
+    width: 40%;
+  } 
   .container1 h4 {
     font-size: 35px;    
     color:darkslategrey;
@@ -128,18 +119,11 @@ header {
     border-color:darkslategrey;
     text-align:left;
   }
-
-  #work {
-    float: left;
-    margin-top: 100px;
-  
-}
-
   .applications > div {
       flex: 0 0 77%;
   }
-
  .applications > h3 {
+     margin: 0;
      flex: 0 0 20%;
      text-align: right;
      padding-right: 15px;
@@ -147,8 +131,11 @@ header {
      font-size: 4vw;
      line-height: 1.1;
  }
-
  div {
      padding: 8px 10px;
  }
-
+ .page-wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+  }
