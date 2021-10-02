@@ -56,15 +56,12 @@ header {
       margin-right: auto;
   }
 
-  .container {
-    display: flex; 
-  }
+  
   
   .container h3 {
     font-size: 35px;    
     color:darkslategrey;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+    padding: 0 100px 0 100px;
     border-color:darkslategrey;
     text-align:left;
   }
@@ -79,9 +76,20 @@ header {
     
   }
 
-  
-  
+  #about-me {
+      float: left;
+      margin-top: 100px;
+    
+  }
 
+  #info {
+      float: right;
+      margin-top: 100px;
+  }
+  
+.applications{
+    clear:both;
+}
 
   .applications h4 {
     font-size: 35px;    
@@ -106,3 +114,24 @@ header {
     width: 35%;
     
   } 
+
+  .container1 h4 {
+    font-size: 35px;    
+    color:darkslategrey;
+    padding: 0 100px 0 100px;
+    border-color:darkslategrey;
+    text-align:left;
+  }
+
+  #work {
+    float: left;
+    margin-top: 100px;
+  
+}
+
+#images {
+    float: right;
+    margin-top: 30px;
+}
+
+ 
