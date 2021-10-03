@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
 body {
     font-family: Helvetica, Arial, sans-serif;
   }
@@ -33,10 +41,12 @@ header {
     padding: 10px 35px;
     background-color:lavenderblush;
     text-align:center;
+    color: darkslategrey
   }
   .hero .portfolio {
     font-weight:normal;
     font-size: 1.05vw; 
+    color: darkslategrey;
   }
   #avatar {
       border-radius: 50%;
@@ -47,30 +57,8 @@ header {
       margin-left: auto;
       margin-right: auto;
   }
-  .container h3 {
-    font-size: 35px;    
-    color:darkslategrey;
-    padding: 0 100px 0 100px;
-    border-color:darkslategrey;
-    text-align:left;
-  }
-  .container p {
-    line-height: 1.5;
-    color: darkslategrey;
-    width: 90%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-  } */
-  #about-me {
-      float: left;
-      margin-top: 100px;
-  }
-  #info {
-      float: right;
-      margin-top: 100px;
-  }
-.applications{
+  
+  .applications{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
@@ -83,45 +71,54 @@ header {
     font-size: 25px;    
     color:darkslategrey;
 }
-  /* .applications h4 {
-    font-size: 35px;    
-    color:darkslategrey;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-color:darkslategrey;
-    text-align:left;
-  } */
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  } 
-  .img-center {
+  
+  .run-buddy {
     display: block;
     margin-left: 20px;
     margin-right:50px;
-    width: 50%;
+    width: 100%;
     display:flex;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+  } 
+  .horiseon {
+    display: block;
+    margin-left: 20px;
+    margin-right:50px;
+    width: 100%;
+    display:flex;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
   } 
   .future-projects {
     display: block;
     margin-left: 20px;
     margin-right:50px;
-    width: 50%;
+    width: 100%;
     display:flex;
-  } 
-  
-  .container1 h4 {
-    font-size: 35px;    
-    color:darkslategrey;
-    padding: 0 100px 0 100px;
-    border-color:darkslategrey;
-    text-align:left;
-  }
-  .applications > div {
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    }
+    
+    .contact-me {
+        display: block;
+        margin-left: 20px;
+        margin-right:50px;
+        width: 100%;
+        display:flex;
+        padding: 10px;
+        border-style: solid;
+        border-width: 1px;
+    }
+    
+   .applications > div {
       flex: 0 0 70%;
   }
+
+
  .applications > h3 {
      margin: 0;
      flex: 0 0 20%;
@@ -140,7 +137,7 @@ header {
     margin-right: auto;
   }
 
-  .contact h4 {
+  .applications > h4 {
     margin: 0;
     flex: 0 0 20%;
     text-align: right;
@@ -149,14 +146,14 @@ header {
     font-size: 4vw;
     line-height: 1.1;
 }
-/* Footer hover */
-.footer-container a:hover{
-    color: var(--lightskyblue);
-    /*REMOVED - Zoom in effect with font-size 1.5vw
-    Will revisit for next project iteration
-    font-size: 2vw;*/
-    font-weight: bold;
-    text-shadow: 0px 0px 20px var(--lightskyblue);
-  }
-  /* End of hover effects on multiple classes */
-  
+  .applications > h5 {
+    margin: 0;
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid;
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+
