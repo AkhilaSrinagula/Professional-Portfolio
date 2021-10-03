@@ -78,12 +78,8 @@ header {
     margin-right:50px;
     width: 100%;
     display:flex;
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
   } 
   .horiseon {
-    display: block;
     margin-left: 20px;
     margin-right:50px;
     width: 100%;
@@ -93,7 +89,6 @@ header {
     border-width: 1px;
   } 
   .future-projects {
-    display: block;
     margin-left: 20px;
     margin-right:50px;
     width: 100%;
@@ -102,7 +97,12 @@ header {
     border-style: solid;
     border-width: 1px;
     }
-    
+    .card-style {
+        padding: 10px;
+        border-style: solid;
+        border-width: 1px;
+    }
+
     .contact-me {
         display: block;
         margin-left: 20px;
@@ -117,7 +117,7 @@ header {
    .applications > div {
       flex: 0 0 70%;
   }
-
+  
 
  .applications > h3 {
      margin: 0;
