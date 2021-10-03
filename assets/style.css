@@ -68,7 +68,8 @@ header {
     border-color:darkslategrey;
     font-size: 25px;    
     color:darkslategrey;
-}
+    }
+    
    .applications p {
     font-weight:normal;
     font-size: 1.15vw; 
@@ -76,9 +77,15 @@ header {
    }
 
    .contact-me {
-    margin-left: 100px; 
-  
-   }
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: -webkit-fill-available;
+  }
+
+  footer {
+    flex-wrap: nowrap !important;
+  }
 
   .run-buddy {
     display: block;
