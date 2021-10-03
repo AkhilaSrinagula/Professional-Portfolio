@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
+
   main {
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +69,11 @@ header {
     font-size: 25px;    
     color:darkslategrey;
 }
-  
+   .applications p {
+    font-weight:normal;
+    font-size: 1.15vw; 
+    color: darkslategrey;
+   }
   .run-buddy {
     display: block;
     margin-left: 20px;
@@ -103,23 +105,12 @@ header {
         border-width: 1px;
     }
 
-    .contact-me {
-        display: block;
-        margin-left: 20px;
-        margin-right:50px;
-        width: 100%;
-        display:flex;
-        padding: 10px;
-        border-style: solid;
-        border-width: 1px;
-    }
-    
    .applications > div {
       flex: 0 0 70%;
   }
   
 
- .applications > h3 {
+ .applications h3 {
      margin: 0;
      flex: 0 0 20%;
      text-align: right;
@@ -137,7 +128,7 @@ header {
     margin-right: auto;
   }
 
-  .applications > h4 {
+  .applications h4 {
     margin: 0;
     flex: 0 0 20%;
     text-align: right;
@@ -146,7 +137,7 @@ header {
     font-size: 4vw;
     line-height: 1.1;
 }
-  .applications > h5 {
+  .applications h5 {
     margin: 0;
     flex: 0 0 20%;
     text-align: right;
@@ -155,5 +146,6 @@ header {
     font-size: 4vw;
     line-height: 1.1;
 }
+
 
 
