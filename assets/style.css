@@ -90,7 +90,7 @@ header {
     margin-left: 140px;
 }
   footer {
-    flex-wrap: nowrap !important;
+    display:flex;
   }
   #blocks {
     width: 100px;
