@@ -70,21 +70,18 @@ header {
     color:darkslategrey;
     }
 
-   .applications p {
-    font-weight:normal;
-    font-size: 1.15vw; 
-    color: darkslategrey;
-   }
-
    .contact-me {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: -webkit-fill-available;
+   
+    margin-top: 50px;
+    
   }
 
   
-  footer {
+  .footer {
     display:flex;
   }
   #blocks {
@@ -92,16 +89,6 @@ header {
     height: 100px;
     position: relative;
   }
-  .relative {
-    position: relative;
-    background-color: aqua;
-    bottom: 150px;
-    left: 35px;
-    height: 70px;
-    width: 125px;
-    opacity: .65;
-  }
-  
 
   .run-buddy {
     
@@ -170,10 +157,10 @@ header {
     margin-top: auto;
     flex: 0 0 20%;
     text-align: right;
-    padding-right: 60px;
+    padding-right: 25px;
     border-right: 3px solid;
     font-size: 2vw;
-    line-height: 2.2;
+    line-height: 1.1;
 }
 
 
