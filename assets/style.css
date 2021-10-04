@@ -83,12 +83,7 @@ header {
     width: -webkit-fill-available;
   }
 
-  .contact-me a {
-    
-    margin-right: 10px;
-    margin-bottom: 40px;
-    margin-left: 140px;
-}
+  
   footer {
     display:flex;
   }
