@@ -4,8 +4,8 @@
 
 This is the Portfolio of Akhila Srinagula. The Portfolio is still in progress. There are few placeholder images for time-being which are going to be updated very soon.
 
-Website URL:
-Repositary URL:
+Website URL: https://akhilasrinagula.github.io/Professional-Portfolio/
+Repositary URL: https://github.com/AkhilaSrinagula/Professional-Portfolio.git
 
 This is the landing page for Akhila Srinagula Portfolio.
 
