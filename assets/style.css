@@ -103,6 +103,7 @@ header {
     padding: 10px;
     border-style: solid;
     border-width: 1px;
+    width: 50%;
     }
 
    .applications > div {
@@ -139,12 +140,16 @@ header {
 }
   .applications h5 {
     margin-top: auto;
-    flex: 0 0 10%;
+    flex: 0 0 20%;
     text-align: right;
-    padding-right: 70px;
+    padding-right: 25px;
     border-right: 3px solid;
     font-size: 2vw;
-    line-height: 2.1;
+   
+    
 }
 
+footer {
+  width: 100%;
+}
 
